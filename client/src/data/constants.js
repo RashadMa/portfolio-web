@@ -1,13 +1,13 @@
 export const Bio = {
-      name: "Rashad Mammadov, Software Frontend Developer.",
+      name: "Rashad Mammadov, Frontend Developer.",
       description:
             "Seasoned and independent Front End Developer with approximately 3 years experience working with JS, React, NextJs NodeJS, MongoDB and React Native.Quickly learn and master new technologies, successful working in both team and self- directed settings.",
       github: "https://github.com/RashadMa",
       resume:
-            "https://drive.google.com/file/d/1p7-DwIU7w_pO-E9scPoDPsqZIvYscYn2/view?usp=sharing",
+            "https://drive.google.com/file/d/1Es4akikkn6akZiZaOkwxXX2pzpXb5Chk/view",
       linkedin: "https://www.linkedin.com/in/rashadmammadov/",
       email: "rashadmmdov@gmail.com",
-      phone: "+372 5627 8115",
+      phone: "+99450 9702707",
       aboutHeader: "I am a Software Developer, specialising in crafting user-friendly, immersive online experiences. I create seamless web experiences for a global client base.",
       aboutSummary: "With nearly 3 years experience in Software Development (Mostly MERN stack), I have a passion for creating elegant and user-friendly interfaces that drive engagement and delight users. I have honed my skills in designing and developing scalable, high-performance applications that run seamlessly across multiple platforms.",
       languages: ["English", "Azerbaijani", "Turkish"]
@@ -142,30 +142,30 @@ export const skills = [
 export const experiences = [
       {
             id: 0,
+            role: "Software Programming Instructor",
+            company: "Code Academy Azerbaijan",
+            date: "Dev 2024 - Present",
+            website: "https://code.edu.az/",
+            desc: "Explained concepts to students in a way that is easily understood, using various teaching methods such as group discussions, teamwork, lectures, and demonstrations. Provided extra help to students who are struggling with a particular subjects or skills about programming. Prepared and administering tests, quizzes, and homework assignments",
+            skills: ["ReactJS", "Redux", "Material UI", "HTML", "CSS", "JavaScript"],
+            location: "Azerbaijan, Baku"
+      },
+      {
+            id: 1,
             role: "Frontend Engineer",
             company: "Neurosense",
-            date: "Feb 2024 - Apr 2024",
-            website: "https://www.neurosense.io/",
+            date: "Sep 2023 - Jun 2024",
+            website: "https://www.913.ai/",
             desc: "Utilized React Flow for seamless visualization and manipulation of complex data structures, enhancing data-driven workflows. Implemented Redux for state management, optimizing data flow and ensuring scalability of applications.",
             skills: ["ReactJS", "Redux", "Material UI", "HTML", "CSS", "JavaScript"],
             location: "Germany"
       },
       {
-            id: 1,
-            role: "Frontend Engineer",
-            company: "Khazartech",
-            date: "Jan 2023 - Dec 2023",
-            website: "",
-            desc: "Delivered responsive, cross-browser compatible and accessibility compliant websites. Testing and debugging applications to ensure high performance and security. Develop websites and web applications using React, Context API, NodeJS and MongoDB technologies.",
-            skills: ["ReactJS", "Redux", "Material UI", "HTML", "CSS", "JavaScript"],
-            location: "Azerbaijan, Baku"
-      },
-      {
             id: 2,
-            role: "Frontend Developer",
-            company: "Fogito",
-            date: "Feb 2022 - Dec 2022",
-            website: "https://fogito.com/",
+            role: "Full-stack Developer",
+            company: "Freelance (Self-employed)",
+            date: "Feb 2022 - May 2023",
+            website: "https://portfolio-rashad.vercel.app/",
             desc: "Designing and developing user-friendly web applications using the MERN stack. Integrating front - end code with server - side logic, databases, and other external services. Developing responsive web designs to ensure compatibility across multiple devices and browsers.",
             skills: ["Typescript", "Javascript", "NodeJS", "ReactJS"],
             location: "Azerbaijan, Baku"
@@ -178,16 +178,6 @@ export const experiences = [
             website: "https://migrationpro.io/",
             desc: "Collaborated with the Back-end developers and other team members to establish objectives and design more functional, cohesive codes to enhance the user experience. Played a security bridge between company and client",
             skills: ["ReactJS", "Redux-Toolkit", "JavaScript", "NodeJS"],
-            location: "Azerbaijan, Baku"
-      },
-      {
-            id: 4,
-            role: "Education Mentor",
-            company: "Code Academy Azerbaijan",
-            date: "Nov 2021 - Feb 2022",
-            website: "https://code.edu.az/",
-            desc: "I helped beginner programming students and answered their questions. To review assignments, perform code reviews, and provide recommendations for better versions.",
-            skills: ["HTML", "CSS", "JavaScript", "C#", ".Net"],
             location: "Azerbaijan, Baku"
       },
 ];
